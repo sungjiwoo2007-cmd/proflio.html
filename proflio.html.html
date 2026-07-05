@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harivishal | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#1e1e1e;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(30,30,30,.8);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+nav a{
+    color:#dcdcdc;
+    text-decoration:none;
+    margin-left:30px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero span{
+    color:#b5b5b5;
+}
+
+.hero p{
+    color:#cfcfcf;
+    font-size:20px;
+    max-width:700px;
+    line-height:1.8;
+}
+
+.btn{
+    margin-top:35px;
+    display:inline-block;
+    background:#555;
+    color:white;
+    text-decoration:none;
+    padding:14px 35px;
+    border-radius:40px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#888;
+    transform:translateY(-5px);
+}
+
+section{
+    padding:100px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.card{
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:30px;
+    backdrop-filter:blur(12px);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Harivishal</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>Hello, I'm <span>Harivishal</span></h1>
+
+<p>
+Computer Applications Student passionate about creating modern,
+responsive and attractive websites using HTML, CSS and JavaScript.
+</p>
+
+<a href="#projects" class="btn">View My Work</a>
+
+</section>
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="card">
+
+<h3 style="margin-bottom:20px;">Who Am I?</h3>
+
+<p style="line-height:1.9;color:#d7d7d7;">
+
+I am <strong>Harivishal</strong>, a Computer Applications student who loves creating modern and responsive websites.
+I enjoy learning new web technologies and improving my design skills every day.
+
+My goal is to become a professional Web Developer and create high-quality websites for clients and businesses.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2 class="section-title">My Projects</h2>
+
+<div style="display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;">
+
+<div class="card">
+
+<h3>Advertisement Website</h3>
+
+<p style="margin-top:15px;color:#d0d0d0;line-height:1.8;">
+
+A modern advertisement landing page designed using HTML with a clean and attractive layout.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Portfolio Website</h3>
+
+<p style="margin-top:15px;color:#d0d0d0;line-height:1.8;">
+
+A responsive personal portfolio website showcasing my skills, projects and contact information.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Landing Page</h3>
+
+<p style="margin-top:15px;color:#d0d0d0;line-height:1.8;">
+
+A creative landing page built with modern UI design and responsive layout.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="experience">
+
+<h2 class="section-title">Experience</h2>
+
+<div class="card">
+
+<h3>Student Web Developer</h3>
+
+<p style="margin-top:15px;color:#d0d0d0;line-height:1.8;">
+
+Currently learning and developing websites using HTML, CSS and JavaScript.
+Focused on creating responsive, user-friendly and visually attractive websites.
+
+</p>
+
+</div>
+
+</section>
+<section id="skills">
+
+<h2 class="section-title">My Skills</h2>
+
+<div class="card">
+
+<p>HTML</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;margin:8px 0 20px;">
+<div style="width:95%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+<p>CSS</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;margin:8px 0 20px;">
+<div style="width:80%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+<p>JavaScript</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;margin:8px 0 20px;">
+<div style="width:60%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+<p>PHP</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;">
+<div style="width:55%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="card">
+
+<p style="margin-bottom:15px;">
+<b>Name:</b> Harivishal
+</p>
+
+<p style="margin-bottom:15px;">
+<b>Email:</b> ms.harivishalb2007@email.com
+</p>
+
+<p style="margin-bottom:15px;">
+<b>Phone:</b> +91 9092465501
+</p>
+
+<p>
+Feel free to contact me for website design and web development projects.
+</p>
+
+</div>
+
+</section>
+
+
+<footer style="text-align:center;padding:30px;background:#181818;color:#bbb;">
+
+<p>© 2026 Harivishal. All Rights Reserved.</p>
+
+</footer>
+
+<script>
+
+document.querySelectorAll("nav a").forEach(link=>{
+link.addEventListener("click",function(e){
+e.preventDefault();
+
+document.querySelector(this.getAttribute("href")).scrollIntoView({
+behavior:"smooth"
+});
+
+});
+});
+
+</script>
+<section id="skills">
+
+<h2 class="section-title">My Skills</h2>
+
+<div class="card">
+
+<p>HTML</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;margin:8px 0 20px;">
+<div style="width:95%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+<p>CSS</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;margin:8px 0 20px;">
+<div style="width:80%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+<p>JavaScript</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;margin:8px 0 20px;">
+<div style="width:60%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+<p>PHP</p>
+<div style="width:100%;height:10px;background:#444;border-radius:20px;">
+<div style="width:55%;height:10px;background:#bfbfbf;border-radius:20px;"></div>
+</div>
+
+</div>
+
+</section>
+
+
+<script>
+
+document.querySelectorAll("nav a").forEach(link=>{
+link.addEventListener("click",function(e){
+e.preventDefault();
+
+document.querySelector(this.getAttribute("href")).scrollIntoView({
+behavior:"smooth"
+});
+
+});
+});
+
+</script>
+// Reveal animation while scrolling
+
+const cards = document.querySelectorAll(".card");
+
+const observer = new IntersectionObserver((entries)=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.style.opacity="1";
+entry.target.style.transform="translateY(0px)";
+}
+});
+});
+
+cards.forEach(card=>{
+card.style.opacity="0";
+card.style.transform="translateY(50px)";
+card.style.transition="0.8s ease";
+observer.observe(card);
+});
+
+
+// Typing effect
+
+const title=document.querySelector(".hero h1");
+
+const text="Hello, I'm Harivishal";
+
+let i=0;
+
+title.innerHTML="";
+
+function typing(){
+
+if(i<text.length){
+
+title.innerHTML+=text.charAt(i);
+
+i++;
+
+setTimeout(typing,80);
+
+}
+
+}
+
+typing();
+</body>
+</html>
